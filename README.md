@@ -1,65 +1,13 @@
 # daily-ai-detection README
 
-This is the README for your extension "daily-ai-detection". After writing up a brief description, we recommend including the following sections.
+`daily-ai-detection` is a plugin designed to test and improve the your ability to recognize AI-generated artworks. The plugin automatically displays a page with four artworks when VS Code is first launched each day. Among the four images, 0~4 images are AI-generated, and you needs to select all of the AI-generated images. After confirming your choice, the plugin shows the results:
 
-## Features
+- The correctly selected image is highlighted with a green border.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- The incorrectly selected image is highlighted with a red border.
 
-For example if there is an image subfolder under your extension project workspace:
+- The unselected AI-generated image is highlighted with a yellow border.
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Apart from the automatic pop-up on the first launch of VS Code each day, users can manually open the test page by using the `Ctrl+Shift+P` shortcut and entering the `command AI Artworks` Detection.
 
 **Enjoy!**
