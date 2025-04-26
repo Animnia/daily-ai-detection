@@ -1,6 +1,7 @@
 {
   "name": "daily-ai-detection",
   "displayName": "Daily AI Detection",
+  "publisher": "Animnia",
   "description": "Can you spot all the AI-generated artworks?",
   "version": "0.0.1",
   "engines": {
