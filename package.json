@@ -14,6 +14,7 @@
     "onStartupFinished"
   ],
   "main": "./extension.js",
+  "icon": "icon.png",
   "contributes": {
     "commands": [{
       "command": "daily-ai-detection.daily-test",
