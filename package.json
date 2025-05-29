@@ -3,7 +3,7 @@
   "displayName": "Daily AI Detection",
   "publisher": "Animnia",
   "description": "Can you spot all the AI-generated artworks?",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.99.0"
   },
@@ -20,10 +20,12 @@
   "main": "./extension.js",
   "icon": "icon.png",
   "contributes": {
-    "commands": [{
-      "command": "daily-ai-detection.daily-test",
-      "title": "AI Artworks Detection"
-    }]
+    "commands": [
+      {
+        "command": "daily-ai-detection.daily-test",
+        "title": "AI Artworks Detection"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
